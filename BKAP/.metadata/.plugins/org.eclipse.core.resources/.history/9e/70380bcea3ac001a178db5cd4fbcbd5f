@@ -1,0 +1,14 @@
+
+public abstract class Shape {
+	private String color;
+	private boolean filled;
+	public Shape() {
+		super();
+	}
+	public Shape(String color, boolean filled) {
+		super();
+		this.color = color;
+		this.filled = filled;
+	}
+	
+}

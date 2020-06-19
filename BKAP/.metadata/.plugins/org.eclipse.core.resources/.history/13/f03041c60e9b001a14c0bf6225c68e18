@@ -1,0 +1,17 @@
+
+public class Bai5_TuLam {
+
+	public static void main(String[] args) {
+		int n;
+		int tong = 0;
+		for(n=100;n<=999; n++) {
+			while(n != 0) {
+				tong+=n%10;
+				n/=10;
+			}
+			if(tong % 2 == 0) {
+				System.out.printf("%d", n);
+			}
+		} 
+	}
+}

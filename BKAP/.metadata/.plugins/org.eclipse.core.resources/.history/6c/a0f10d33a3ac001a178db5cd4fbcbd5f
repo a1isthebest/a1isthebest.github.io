@@ -1,0 +1,13 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Square s = new Square();
+		Square s = new Square(5, "red" , true);
+		s.setWidth(side);
+		s.setLength(5);
+		System.out.println(s.toSring());
+	}
+
+}

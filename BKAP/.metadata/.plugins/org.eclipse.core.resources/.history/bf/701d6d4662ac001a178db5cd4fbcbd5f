@@ -1,0 +1,37 @@
+package bkap.run;
+
+import java.util.Scanner;
+
+public class ManagementStudent {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		do {
+			System.out.println("********************************MENU***************************");
+			System.out.println("1. Nhap thong tin n sinh vien");
+			System.out.println("2. Tinh diem trung binh sinh vien");
+			System.out.println("3. Xet diem qua cho SV");
+			System.out.println("4. Hien thi thong tin sv");
+			System.out.println("5. Thoat");
+			int choice = Integer.parseInt(sc.nextLine());
+			switch (choice) {
+			case 1:
+				
+				break;
+			case 2:
+				break;
+			case 3:
+				break;
+			case 4:
+				break;
+			case 5:
+				System.exit(0);
+			default:
+				System.out.println("Nhap vao tu 1-5");
+				break;
+			}
+		} while (true);
+	}
+
+}

@@ -1,0 +1,6 @@
+package bkap;
+
+public class City {
+	private String cityId, cityName;
+	private boolean status;
+}

@@ -1,0 +1,26 @@
+package bkap.entity;
+
+import bkap.itf.IStudent;
+
+public class Student implements IStudent{
+	private String studentId;
+	private String studentName;
+	private int age;
+	private float diemToan;
+	private float diemLy;
+	private float diemHoa;
+	private float diemTb;
+	private boolean studentStatus;
+	@Override
+	public void inputData() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void displayData() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

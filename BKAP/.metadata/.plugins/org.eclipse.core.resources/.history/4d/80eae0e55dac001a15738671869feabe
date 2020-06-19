@@ -1,0 +1,5 @@
+package bkap.itf;
+
+public interface IStudent {
+	public final MARK_PASS = 5;
+}

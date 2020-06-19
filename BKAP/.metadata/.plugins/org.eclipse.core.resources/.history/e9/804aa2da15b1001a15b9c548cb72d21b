@@ -1,0 +1,14 @@
+package bkap;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class B2 {
+
+	Set<City> setC = new HashSet<>();
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

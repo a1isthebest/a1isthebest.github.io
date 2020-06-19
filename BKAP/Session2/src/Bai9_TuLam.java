@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Bai9_TuLam {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Nhap vao so tien gui: ");
+		float tienGui = Float.parseFloat(sc.nextLine());
+		System.out.println("Nhap vao lai suat theo nam: ");
+		float laiSuatNam = Float.parseFloat(sc.nextLine());
+		System.out.println("Nhap vao so thang gui: ");
+		int soThang = Integer.parseInt(sc.nextLine());
+		float laiSuatThang = (laiSuatNam / 12) / 100;
+		System.out.printf("%10s%30s%30s\n", "Thang", "tien goc + lai", "Tien lai thang");
+		float tienGocVaLai = tienGui;
+		float tienLaiCuoiKy;
+		for (int i = 1; i <= soThang; i++) {
+			if (i == 1) {
+				tienGocVaLai = tienGui;
+				tienLaiCuoiKy = tienGui * laiSuatThang;
+			} else {
+				tienGocVaLai = tienGocVaLai + tienGocVaLai * laiSuatThang;
+				tienLaiCuoiKy = tienGocVaLai * laiSuatThang;
+			}
+			System.out.printf("%10d%30.1f%30.1f\n", i, tienGocVaLai, tienLaiCuoiKy);
+		}
+		sc.close();
+	}
+}

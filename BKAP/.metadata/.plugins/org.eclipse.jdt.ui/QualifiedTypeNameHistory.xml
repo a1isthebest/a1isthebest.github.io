@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="sun.net.www.ApplicationLaunchException"/>
+    <fullyQualifiedTypeName name="java.lang.InternalError"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.Convert"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="bkap.entity.Test"/>
+    <fullyQualifiedTypeName name="bkap.entity.Employee"/>
+    <fullyQualifiedTypeName name="java.lang.Float"/>
+    <fullyQualifiedTypeName name="bkap.entity.Book"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.lang.Package"/>
+    <fullyQualifiedTypeName name="bkap.Person"/>
+    <fullyQualifiedTypeName name="PersonAccount"/>
+    <fullyQualifiedTypeName name="Account"/>
+    <fullyQualifiedTypeName name="SavingAccount"/>
+    <fullyQualifiedTypeName name="bkap.entity.Student"/>
+    <fullyQualifiedTypeName name="bkap.run.ManagementStudent"/>
+    <fullyQualifiedTypeName name="Rectangle"/>
+    <fullyQualifiedTypeName name="Square"/>
+    <fullyQualifiedTypeName name="javax.swing.Icon"/>
+    <fullyQualifiedTypeName name="bkap.itf.ICity"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="bkap.City"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.atomic.AtomicInteger"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="bkap.Nations"/>
+</qualifiedTypeNameHistroy>

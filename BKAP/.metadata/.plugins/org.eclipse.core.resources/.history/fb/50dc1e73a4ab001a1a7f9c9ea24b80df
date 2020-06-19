@@ -1,0 +1,21 @@
+
+public class Square extends Rectangle {
+	private double side;
+
+	public Square() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Square(double side) {
+		super();
+		this.side = side;
+	}
+
+	
+	public Square(double width, double length) {
+		super(width, length);
+		// TODO Auto-generated constructor stub
+	}
+
+}

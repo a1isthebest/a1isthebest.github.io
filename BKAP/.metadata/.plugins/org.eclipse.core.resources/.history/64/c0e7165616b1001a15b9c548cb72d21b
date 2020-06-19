@@ -1,0 +1,37 @@
+package bkap;
+
+public class City {
+	private String cityId, cityName;
+	private boolean status;
+	public City(String cityId, String cityName, boolean status) {
+		super();
+		this.cityId = cityId;
+		this.cityName = cityName;
+		this.status = status;
+	}
+	public City() {
+		super();
+	}
+	public String getCityId() {
+		return cityId;
+	}
+	public void setCityId(String cityId) {
+		this.cityId = cityId;
+	}
+	public String getCityName() {
+		return cityName;
+	}
+	public void setCityName(String cityName) {
+		this.cityName = cityName;
+	}
+	public boolean isStatus() {
+		return status;
+	}
+	public void setStatus(boolean status) {
+		this.status = status;
+	}
+	public void inputData() {
+		System.out.println("Nhap ma tp: ");
+		
+	}
+}
